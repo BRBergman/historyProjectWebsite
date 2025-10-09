@@ -58,7 +58,7 @@ h1 {
 .outerboxes div {
     box-shadow: 0px 0px 2px 2px #1a1c1a83;
     justify-content: space-between;
-    border: 3px solid #ffe7c3;
+    border: 3px solid #ffe7c381;
     padding: 6px;
     background-color: #f3dfc1;
     /*#bbd8bb;*/
@@ -67,18 +67,18 @@ h1 {
 }
 
 a {
-    text-shadow: 1px 1px 2px #121224;
+    text-shadow: 1px 1px 2px #00000051;
     /*#617161;*/
 }
 
 a:link {
-    color: #2d94c0;
-    text-shadow: #737287;
+    color: #119db0;
+
     text-decoration: none;
 }
 
 a:visited {
-    color: #26bccf;
+    color: #7d46dd;
 }
 
 a:hover {
@@ -101,8 +101,11 @@ a:hover {
 
 img {
     object-fit: contain;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0px 0px 2px 2px #1a1c1a83;
+    float: left;
+    margin-right: 5px;
 }
 
 ul {
