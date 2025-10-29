@@ -11,9 +11,10 @@ html {
 }
 
 body {
-    background: #e0c9a6;
-    aspect-ratio: 1/1;
-    /* aspect artio of ^*/
+    background-image: url(/pictures/wooden-floor-background.jpg);
+    /*#e0c9a6;*/
+
+
     background-size: cover;
     height: fit-content;
 }
@@ -56,11 +57,15 @@ h1 {
 
 /* in between boxes*/
 .outerboxes div {
+    border-radius: 3px;
     box-shadow: 0px 0px 2px 2px #1a1c1a83;
     justify-content: space-between;
-    border: 3px solid #ffe7c381;
+    border: 3px solid #37332db3;
     padding: 6px;
-    background-color: #f3dfc1;
+    background-image: url(/pictures/grunge-vintage-old-paper-background.jpg);
+    background-size: cover;
+
+
     /*#bbd8bb;*/
     margin-bottom: 10px;
     margin-top: 10px;
@@ -101,10 +106,10 @@ a:hover {
 
 img {
 
-    max-width: 15%;
+    max-width: 19%;
 
     box-shadow: 0px 0px 2px 2px #1a1c1a83;
-    float: left;
+
     margin-right: 5px;
     margin-bottom: 5px;
 }
