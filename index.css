@@ -62,7 +62,8 @@ h1 {
     justify-content: space-between;
     border: 3px solid #37332db3;
     padding: 6px;
-    background-image: url(/pictures/grunge-vintage-old-paper-background.jpg);
+    background: #ccb491;
+    /*url(/pictures/grunge-vintage-old-paper-background.jpg);*/
     background-size: cover;
 
 
