@@ -73,18 +73,19 @@ h1 {
 }
 
 a {
-    text-shadow: 1px 1px 2px #00000051;
+    text-shadow: 1px 1px 2px #ffb97351;
     /*#617161;*/
 }
 
 a:link {
-    color: #119db0;
+    color: #088492;
 
     text-decoration: none;
 }
 
 a:visited {
     color: #7d46dd;
+
 }
 
 a:hover {
